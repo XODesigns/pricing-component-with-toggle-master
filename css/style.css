@@ -292,20 +292,16 @@ form{
 }
 
 @media only screen and (min-width:800px){
-    /* .price{
-        font-size: 5rem
-    }
-    .price-year{
-        font-size: calc(2.5rem + 16 * ((100vw - 800px) / (1200 - 800)));
-    }
+
     .price-year span{
-        font-size: calc(1rem + 16 * ((100vw - 800px) / (1200 - 800)));
+        top:1rem;
+        left:2.5rem;
     }
 
     .price span{
-        font-size: calc(1rem + 16 * ((100vw - 800px) / (1200 - 800)));
+        top:1rem;
+        left:3rem;
     }
-     */
     
 }
 
