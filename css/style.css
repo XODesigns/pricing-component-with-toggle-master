@@ -310,6 +310,11 @@ form{
 }
 
 @media only screen and (max-width:600px) {
+
+    header{
+        grid-column:1/5;
+    }
+
     .price{
         font-size: 4rem;
     }
