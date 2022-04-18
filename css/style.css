@@ -249,7 +249,35 @@ form{
 }
 
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px){
+    #container{
+        grid-template-columns: 5% repeat(3, 1fr) 5%;
+    }
+
+    .price{
+        font-size: 3.5rem;
+    }
+    .price-year{
+        font-size: 3.5rem;
+    }
+
+    .price span{
+        font-size:2rem;
+        position: absolute;
+        top:1rem;
+    }
+    
+    .price-year span{
+        font-size:2rem;
+        position: absolute;
+        top:1rem;
+
+    }
+    
+}
+
+
+@media only screen and (max-width:900px) {
 
     #basic{
         grid-column:1/6;
@@ -275,7 +303,7 @@ form{
     .toggle{
         display: inline-flex;
         width: 100%;
-        padding: 0;
+        padding: 0 25%;
     }
 
     header{
@@ -328,7 +356,7 @@ form{
     .toggle{
         display: inline-flex;
         width: 100%;
-        padding: 0;
+        padding: 0 10%;
     }
 
     header{
