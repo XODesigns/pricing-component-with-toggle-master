@@ -298,6 +298,13 @@ form{
     .price-year{
         font-size: calc(2.5rem + 16 * ((100vw - 568px) / (1200 - 568)));
     }
+    .price-year span{
+        font-size: calc(1.5rem + 16 * ((100vw - 568px) / (1200 - 568)));
+    }
+
+    .price span{
+        font-size: calc(2rem + 16 * ((100vw - 568px) / (1200 - 568)));
+    }
     
     
 }
