@@ -314,7 +314,7 @@ form{
     .toggle{
         display: inline-flex;
         width: 100%;
-        padding: 0;
+        padding: 0 12%;
     }
 
     header{
