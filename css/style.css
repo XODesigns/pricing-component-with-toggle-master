@@ -294,7 +294,7 @@ form{
 @media only screen and (max-width:800px){
 
     .toggle{
-        padding: 0;
+        padding: 0 12%;
     }
 
     .price-year span{
@@ -314,7 +314,7 @@ form{
     .toggle{
         display: inline-flex;
         width: 100%;
-        padding: 0 12%;
+        padding: 0;
     }
 
     header{
