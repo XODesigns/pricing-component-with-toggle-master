@@ -251,9 +251,58 @@ form{
 
 @media only screen and (max-width:800px) {
 
+    #basic{
+        grid-column:1/6;
+        grid-row: 4/5;
+        margin: 6% 0;
+        border-radius: 15px;
+    }
+    
+    #pro{
+        grid-column: 1/6;
+        grid-row: 5/6;
+        margin: 6% 0;
+        border-radius: 15px;
+    }
+    
+    #master{
+        grid-column: 1/6;
+         grid-row: 6/7;
+        margin: 6% 0;
+        border-radius: 15px;
+    } 
+
+    .toggle{
+        display: inline-flex;
+        width: 100%;
+        padding: 0;
+    }
+
     header{
         grid-column:1/6;
     }
+
+    .price{
+        font-size: 8rem;
+    }
+    .price-year{
+        font-size: 8rem;
+    }
+    .price-year span{
+        font-size: 4rem;
+        top:2.5rem;
+        left:6rem;
+    }
+
+    .price span{
+        font-size:4rem;
+        top:2.5rem;
+        left:7rem;
+    }  
+}
+
+
+@media only screen and (max-width:600px) {
 
     #basic{
         grid-column:1/6;
@@ -276,41 +325,6 @@ form{
         border-radius: 15px;
     } 
 
-    .price span{
-        /* font-size:2.5rem; */
-        position: absolute;
-        top:1.5rem;
-        left:2.5rem;
-    }
-    
-    .price-year span{
-        /* font-size:2.5rem; */
-        position: absolute;
-        top:1.5rem;
-        left:1rem;
-    }
-}
-
-@media only screen and (max-width:800px){
-
-    .toggle{
-        padding: 0 12%;
-    }
-
-    .price-year span{
-        top:1rem;
-        left:2.5rem;
-    }
-
-    .price span{
-        top:1rem;
-        left:3rem;
-    }
-    
-}
-
-@media only screen and (max-width:600px) {
-
     .toggle{
         display: inline-flex;
         width: 100%;
@@ -330,13 +344,13 @@ form{
     .price-year span{
         font-size: 2.5rem;
         top:1rem;
-        left:0.8rem;
+        left:3rem;
     }
 
     .price span{
         font-size:2.5rem;
         top:1rem;
-        left:1.5rem;
+        left:4rem;
     }  
 }
 
