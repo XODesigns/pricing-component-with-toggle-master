@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | pricing-component-with-toggle-master</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <main id="container">
+
+    <header>
+      <h1>Our Pricing</h1>
+
+      <div class="toggle">
+      <p> Annually</p>
+      <label class="switch">
+        <input type="checkbox" id="toggle">
+        <span class="slider round"></span>
+      </label>
+      <p>Monthly</p>
+    </div>
+
+    </header>
+    
+    <form id="basic">
+        <h2>Basic</h2>
+       <div class="price hide" name="price"> <span>&dollar;</span>19.99</div>
+       <div class="price-year" name="price-year"> <span>&dollar;</span>199.99</div>
+        <div class="storage">500 GB Storage</div>  
+        <div class="users">2 Users Allowed</div> 
+        <div class="send">Send up to 3 GB</div> 
+        <button class="learn basic">Learn More</button>
+    </form>
+
+
+    <form id="pro">
+      <h2>Professional</h2>
+     <div class="price hide"><span>&dollar;</span>24.99</div>
+     <div class="price-year"><span>&dollar;</span>249.99</div>
+      <div class="pro-storage">1 TB Storage</div>  
+      <div class="pro-users">5 Users Allowed</div> 
+      <div class="pro-send">Send up to 10 GB</div> 
+      <button class="learn pro">Learn More</button>
+  </form>
+
+  <form id="master">
+    <h2>Master</h2>
+   <div class="price hide"> <span>&dollar;</span>39.99</div>
+   <div class="price-year"> <span>&dollar;</span>399.99</div>
+    <div class="storage">2 TB Storage</div>  
+    <div class="users">10 Users Allowed</div> 
+    <div class="send">Send up to 20 GB</div> 
+    <button class="learn master">Learn More</button>
+</form>
+
+
+        
+        
+      
+
+
+  </main>
+
+  <!-- Our Pricing
+  Annually
+  Monthly
+
+  Basic
+  &dollar;19.99
+  &dollar;199.99
+  500 GB Storage
+  2 Users Allowed
+  Send up to 3 GB
+  Learn More
+
+  Professional
+  &dollar;24.99
+  &dollar;249.99
+  1 TB Storage
+  5 Users Allowed
+  Send up to 10 GB
+  Learn More
+
+  Master
+  &dollar;39.99
+  &dollar;399.99
+  2 TB Storage
+  10 Users Allowed
+  Send up to 20 GB
+  Learn More -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+<script src="js/script.js"></script>
+</body>
+</html>
