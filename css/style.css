@@ -310,8 +310,11 @@ form{
 }
 
 @media only screen and (max-width:600px) {
-    body{
-        margin:1%;
+
+    .toggle{
+        display: inline-flex;
+        width: 100%;
+        padding: 0;
     }
 
     header{
