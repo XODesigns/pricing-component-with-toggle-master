@@ -311,10 +311,10 @@ form{
 
 @media only screen and (max-width:600px) {
     .price{
-        font-size: 2rem;
+        font-size: 4rem;
     }
     .price-year{
-        font-size: 1.4rem;
+        font-size: 4rem;
     }
     .price-year span{
         font-size: 1rem
