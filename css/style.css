@@ -291,3 +291,11 @@ form{
     }
 }
 
+@media only screen and (min-width:568px){
+    .price{
+
+        font-size: calc(3rem + 16 * ((100vw - 568px) / (1200 - 568)));
+    }
+    
+}
+
