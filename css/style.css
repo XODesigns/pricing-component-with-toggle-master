@@ -292,8 +292,8 @@ form{
 }
 
 @media only screen and (min-width:800px){
-    .price{
-        font-size: calc(3rem + 16 * ((100vw - 800px) / (1200 - 800)));
+    /* .price{
+        font-size: 5rem
     }
     .price-year{
         font-size: calc(2.5rem + 16 * ((100vw - 800px) / (1200 - 800)));
@@ -305,7 +305,7 @@ form{
     .price span{
         font-size: calc(1rem + 16 * ((100vw - 800px) / (1200 - 800)));
     }
-    
+     */
     
 }
 
